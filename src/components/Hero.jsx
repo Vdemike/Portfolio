@@ -16,14 +16,14 @@ const Hero = () => {
 
         <div style={{ zIndex: 1, position: "relative"}}>
           <h1 className={`${styles.heroHeadText} text-white`} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8)' }}>
-            Hi, I'm <span className='text-[#915EFF]'>Mike</span>
+            Hi, I'm <span className='text-[#915EFF]'>Mike!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>
             Together we create robust, user-friendly web-based  <br className='sm:block hidden' />
             solutions that meet the needs and expectations <br className='sm:block hidden' /> of customers.  I utilize a full-stack approach to ensure that<br className='sm:block hidden' /> every aspect of the user experience, from the interface<br className='sm:block hidden' /> to the backend functionality, is seamless and intuitive.
           </p>
           <div style={{ zIndex: 1, position: "relative", width:"200px"}}>
-          <a href="./src/assets/resume - Mike Incourt.pdf" download title="Download Resume" className="flex items-center">
+          <a href="/src/assets/resume - Mike Incourt.pdf" download title="Download Resume" className="flex items-center">
         <img src={button} alt='button' style={{ margin: "10px -10px", padding: "5px", height: "100px" }} />
         </a></div>
         </div>

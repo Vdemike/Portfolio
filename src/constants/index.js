@@ -191,7 +191,7 @@ const projects = [
   {
     name: "WatchMi",
     description:
-      "Movie website made in ReactJS using the TMDB-api. This website lets you browse through movies, TV-shows, actors, genres and add your favorites to a list where they will be saved for later.",
+      "Movie website made in ReactJS using the TMDB-api. This website lets you browse through movies, TV-shows, actors, genres and add your favorites to a list where they will be saved for later. <a href='https://your-live-website-url.com'>LIVE DEMO</a>",
     tags: [
       {
         name: "React",
@@ -208,6 +208,7 @@ const projects = [
     ],
     image: watchmi,
     source_code_link: "https://github.com/",
+    live_demo_link: "https://watchmi.netlify.app"
   },
 ];
 

@@ -31,6 +31,7 @@ import adobe from "./company/adobe.png";
 import becode from "./company/becode.png";
 import aed from "./company/aed.png";
 
+import cookies from "./cookie.png"
 import watchmi from "./watchmi.png";
 import michelangelo from "./michelangelo.png"
 
@@ -66,6 +67,7 @@ export {
   becode,
   aed,
 
+  cookies,
   watchmi,
   michelangelo,
 };

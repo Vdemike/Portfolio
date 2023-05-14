@@ -23,6 +23,7 @@ import {
   becode,
   aed,
 
+  cookies,
   michelangelo,
   watchmi,
   threejs,
@@ -209,6 +210,24 @@ const projects = [
     image: watchmi,
     source_code_link: "https://github.com/Vdemike/WatchMi",
     live_demo_link: "https://watchmi.netlify.app"
+  },
+  {
+    name: "BeCookies",
+    description:
+      "A quick little Cookie-clicker project meant as a fun game. Created using Javascript, HTML and Tailwind CSS",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cookies,
+    source_code_link: "https://github.com/Vdemike/BeCookies/tree/main",
+    live_demo_link: "https://becookies.netlify.app/"
   },
 ];
 

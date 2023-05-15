@@ -5,8 +5,16 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Logo = ({ isMobile }) => {
+  const [hasError, setHasError] = useState(false);
   const logo = useGLTF("./logo/Logo-transformed.glb");
 
+  const handleLoadError = () => {
+    setHasError(true);
+  };
+
+  if (hasError) {
+    return  null;
+  }
 
   return (
     <mesh>

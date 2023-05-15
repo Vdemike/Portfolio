@@ -23,7 +23,7 @@ const Hero = () => {
             solutions that meet the needs and expectations <br className='sm:block hidden' /> of customers.  I utilize a full-stack approach to ensure that<br className='sm:block hidden' /> every aspect of the user experience, from the interface<br className='sm:block hidden' /> to the backend functionality, is seamless and intuitive.
           </p>
           <div style={{ zIndex: 1, position: "relative", width:"200px"}}>
-          <a href="/public/MikeIncourt.pdf" download title="Download Resume" className="flex items-center">
+          <a href="/MikeIncourt.pdf" download title="Download Resume" className="flex items-center">
         <img src={button} alt='button' style={{ margin: "10px -10px", padding: "5px", height: "100px" }} />
         </a></div>
         </div>

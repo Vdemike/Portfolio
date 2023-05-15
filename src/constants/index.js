@@ -187,7 +187,8 @@ const projects = [
       },
     ],
     image: michelangelo,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vdemike/Resto-2.0",
+    live_demo_link: "https://github.com/Vdemike/Resto-2.0"
   },
   {
     name: "WatchMi",

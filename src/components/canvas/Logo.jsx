@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Logo = ({ isMobile }) => {
+const Logo = () => {
   const [hasError, setHasError] = useState(false);
   const logo = useGLTF("./logo/Logo-transformed.glb");
 
@@ -32,7 +32,7 @@ const Logo = ({ isMobile }) => {
         object={logo.scene}
         scale={0.022} position-y={0} rotation-y={90}
         position-x={0.9} rotation-x={-0.1}
-        position={isMobile ? [0, -3.25, -2.2] : [2, -3.25, -1.5]}
+        position={ [2, -3.25, -1.5]}
         
       />
     </mesh>
@@ -42,7 +42,7 @@ const Logo = ({ isMobile }) => {
 useGLTF.preload('./logo/Logo-transformed.glb')
 
 const LogoCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -51,7 +51,7 @@ const LogoCanvas = () => {
     window.addEventListener('resize', handleResize);
 
     // Set the initial value of the `isMobile` state variable
-    setIsMobile(window.innerWidth < 500);
+    // setIsMobile(window.innerWidth < 500);
 
     // Remove the listener when the component is unmounted
     return () => {
@@ -75,8 +75,6 @@ const LogoCanvas = () => {
           enableRotate={true}
           enablePan={true}
           enableZoom={false}
-          minAzimuthAngle={Math.PI / 2}
-
           maxPolarAngle={0.2}
           minPolarAngle={Math.PI / 2}
         />
@@ -84,7 +82,7 @@ const LogoCanvas = () => {
           position={[screenWidth * 0, 0, 0]}
 
         >
-          <Logo isMobile={isMobile} />
+          <Logo />
         </group>
       </Suspense>
 

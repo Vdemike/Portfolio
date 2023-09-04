@@ -30,6 +30,9 @@ import volunteer from "./company/volunteer.jpg";
 import adobe from "./company/adobe.png";
 import becode from "./company/becode.png";
 import aed from "./company/aed.png";
+import Komon from "./company/Komon.png";
+
+
 
 import cookies from "./cookie.png"
 import watchmi from "./watchmi.png";
@@ -66,6 +69,7 @@ export {
   adobe,
   becode,
   aed,
+  Komon,
 
   cookies,
   watchmi,

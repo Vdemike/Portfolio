@@ -27,6 +27,7 @@ import {
   michelangelo,
   watchmi,
   threejs,
+  Komon,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Java Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
@@ -147,7 +148,7 @@ const experiences = [
     company_name: "AED Group",
     icon: aed,
     iconBg: "#FFFFFF",
-    date: "March 2016 - March 2022",
+    date: "March 2016 - March 2020",
     points: [
       "Team leader for one of the biggest event company in Europe.",
       "Managing professional technicians, repairing installations under tight deadlines.",
@@ -160,12 +161,25 @@ const experiences = [
     company_name: "BeCode",
     icon: becode,
     iconBg: "#E6DEDD",
-    date: "Dec 2022 - ...",
+    date: "Dec 2022 - Sept 2023",
     points: [
       "Web development course with a strong focus on active pedagogy.",
       "Developing and maintaining full-stack web applications using actual related frameworks and libraries.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback with other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Komon",
+    icon: Komon,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Sept 2023",
+    points: [
+      "Developed and maintained a Full Stack application using TypeScript, Next.js, tRpc, Prisma, Planetscale, Saas-UI, and Chakra-UI to simplify tax deduction management for small businesses, freelancers, and company owners.",
+      "Helped create a user-friendly platform that empowers users to manage various tax-friendly benefits, aligning with the company's mission of making tax deductions accessible and hassle-free.",
+      "Worked closely with colleagues to innovate by streamlining variable salary declaration reporting and automating deduction management, reducing administrative tasks and ensuring compliance with payroll and accounting codes.",
+      "Contributed to improving the pay experience by enabling users to easily access and utilize their entitled tax benefits, making pay day efficient and stress-free.",
     ],
   },
 ];

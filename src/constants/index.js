@@ -23,6 +23,7 @@ import {
   becode,
   aed,
 
+  inckthreads,
   cookies,
   michelangelo,
   watchmi,
@@ -243,6 +244,36 @@ const projects = [
     image: cookies,
     source_code_link: "https://github.com/Vdemike/BeCookies/tree/main",
     live_demo_link: "https://becookies.netlify.app/"
+  },
+  {
+    name: "InckThreads",
+    description:
+      "Threads web application built with TypeScript using Next.js",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "red-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: inckthreads,
+    source_code_link: "https://github.com/Vdemike/InckThreads",
+    live_demo_link: "https://inckthreads.vercel.app/"
   },
 ];
 

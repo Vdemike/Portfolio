@@ -33,7 +33,7 @@ import aed from "./company/aed.png";
 import Komon from "./company/Komon.png";
 
 
-
+import inckthreads from "./inckthreads.png";
 import cookies from "./cookie.png"
 import watchmi from "./watchmi.png";
 import michelangelo from "./michelangelo.png"
@@ -71,6 +71,7 @@ export {
   aed,
   Komon,
 
+  inckthreads,
   cookies,
   watchmi,
   michelangelo,

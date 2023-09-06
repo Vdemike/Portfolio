@@ -248,7 +248,7 @@ const projects = [
   {
     name: "InckThreads",
     description:
-      "Threads web application built with TypeScript using Next.js",
+      "InckThreads web application, a social media platform that allows users to share their thoughts. InckThreads is a full-stack web application built with TypeScript using Next.js 13 with Server Side Rendering. It uses MongoDB as a database, and Clerk as an authentication provider. It also uses UploadThing to upload images to the cloud. The application is styled with Tailwind CSS and Shadcn components.",
     tags: [
       {
         name: "Typescript",

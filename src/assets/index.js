@@ -32,7 +32,7 @@ import becode from "./company/becode.png";
 import aed from "./company/aed.png";
 import Komon from "./company/Komon.png";
 
-
+import weather from "./weather.png";
 import inckthreads from "./inckthreads.png";
 import cookies from "./cookie.png"
 import watchmi from "./watchmi.png";
@@ -71,6 +71,7 @@ export {
   aed,
   Komon,
 
+  weather,
   inckthreads,
   cookies,
   watchmi,

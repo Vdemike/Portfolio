@@ -23,6 +23,7 @@ import {
   becode,
   aed,
 
+  weather,
   inckthreads,
   cookies,
   michelangelo,
@@ -274,6 +275,32 @@ const projects = [
     image: inckthreads,
     source_code_link: "https://github.com/Vdemike/InckThreads",
     live_demo_link: "https://inckthreads.vercel.app/"
+  },
+  {
+    name: "WeatherInck",
+    description:
+      "WeatherInck allows you to use 9 search engines using shortcuts, create cards and check the weather for the next 5 days anywhere in the world using the OpenWeatherMap-API. You can also edit your own settings and change your background-image.",
+    tags: [
+      {
+        name: "HTML / CSS / Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenWeatherMapAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Styled-Components",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/Vdemike/WeatherInck",
+    live_demo_link: "https://weatherinck.netlify.app/"
   },
 ];
 

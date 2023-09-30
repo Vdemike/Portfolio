@@ -279,7 +279,7 @@ const projects = [
   {
     name: "WeatherInck",
     description:
-      "WeatherInck allows you to use 9 search engines using shortcuts, create cards and check the weather for the next 5 days anywhere in the world using the OpenWeatherMap-API. You can also edit your own settings and change your background-image.",
+      "WeatherInck allows you to use 12 search engines using shortcuts, create cards and check the weather for the next 5 days anywhere in the world using the OpenWeatherMap-API. You can also edit your own settings and change your background-image.",
     tags: [
       {
         name: "HTML / CSS / Javascript",

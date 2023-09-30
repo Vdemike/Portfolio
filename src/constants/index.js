@@ -261,7 +261,7 @@ const projects = [
       },
       {
         name: "Clerk",
-        color: "red-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "NextJS",
@@ -291,7 +291,7 @@ const projects = [
       },
       {
         name: "ReactJS",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Styled-Components",

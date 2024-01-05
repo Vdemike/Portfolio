@@ -188,7 +188,7 @@ const experiences = [
   {
     title: "IT Support Engineer",
     company_name: "Fnac Vanden Borre",
-    icon: Komon,
+    icon: fnac,
     iconBg: "#E6DEDD",
     date: "Dec 2023 - ...",
     points: [

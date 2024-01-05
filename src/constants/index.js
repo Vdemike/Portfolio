@@ -30,6 +30,7 @@ import {
   watchmi,
   threejs,
   Komon,
+  fnac,
 } from "../assets";
 
 export const navLinks = [
@@ -182,6 +183,19 @@ const experiences = [
       "Helped create a user-friendly platform that empowers users to manage various tax-friendly benefits, aligning with the company's mission of making tax deductions accessible and hassle-free.",
       "Worked closely with colleagues to innovate by streamlining variable salary declaration reporting and automating deduction management, reducing administrative tasks and ensuring compliance with payroll and accounting codes.",
       "Contributed to improving the pay experience by enabling users to easily access and utilize their entitled tax benefits, making pay day efficient and stress-free.",
+    ],
+  },
+  {
+    title: "IT Support Engineer",
+    company_name: "Fnac Vanden Borre",
+    icon: Komon,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - ...",
+    points: [
+      "Provided efficient IT support for Fnac Vanden Borre, resolving hardware and software issues promptly.",
+      "Implemented proactive maintenance strategies, ensuring system security and optimal performance.",
+      "Led deployment and configuration of new technologies, contributing to the modernization of IT infrastructure.",
+      "Collaborated effectively with cross-functional teams and end-users, delivering clear and concise technical guidance and solutions to enhance overall IT literacy and user experience within the organization.",
     ],
   },
 ];

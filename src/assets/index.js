@@ -31,6 +31,7 @@ import adobe from "./company/adobe.png";
 import becode from "./company/becode.png";
 import aed from "./company/aed.png";
 import Komon from "./company/Komon.png";
+import fnac from "./company/fnac.png"
 
 import weather from "./weather.png";
 import inckthreads from "./inckthreads.png";
@@ -70,6 +71,7 @@ export {
   becode,
   aed,
   Komon,
+  fnac,
 
   weather,
   inckthreads,
